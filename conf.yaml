@@ -1,31 +1,7 @@
 #channels config file
 key: 2369e4197d656763892476b89d73917f6664d272095319b8e056e27bc994a4d8
 channels:
-
-        - 
-         type: rtsp
-         name: cctv1
-         url: rtsp://127.0.0.1:8554/abcd
-         sdev: lo
-         dst: 10.200.69.202:1234
-         dev: eth0
-        - 
-         type: hls
-         name: cctv2
-         url: http://aliplay.17.cn/live/5ca329bd828bb609ea30ccfc.m3u8
-         sdev: eth0
-         dst: 10.200.69.202:1235
-         dev: eth0
-
-        - 
-         type: httpts
-         name: cctv3
-         url: http://aliplay.ye.cn/17e/5ca329bd828bb609ea30ccfc.m3u8
-         sdev: eth0
-         dst: 10.8.14.177:1236
-         dev: eth0
-
-        - 
+       - 
          type: rtp
          name: cctv4
          url: rtp://239.77.0.133:5146
