@@ -4,8 +4,8 @@ a tool used for relay UDP/RTP multicast stream to a new multicast addres, via an
 
 
 ## Install
-[sudo apt install libyaml-dev  ](https://github.com/tlsa/libcyaml)
-sudo apt install libuv1-dev  
+1.[Install libcyaml](https://github.com/tlsa/libcyaml)   
+2.sudo apt install libuv1-dev  
 
 
 ## Run
